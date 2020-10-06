@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700); /* Montserrat font */
+
+ .menu-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 15px 10px;
+   z-index: 10;
+ }
+
+  .menu li{
+    text-decoration: none;
+    display: inline;
+    padding-left: 10px;
+  }
+
+  .menu a {
+    color: #60606e;  
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 20px;
+  }
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+  } 
+
+  .logo {
+    color: #60606e;  
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    font-style: italic;
+  }

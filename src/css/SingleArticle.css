@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700); /* Montserrat font */
+
+.header-article {
+    position: relative;
+    background: #fff url('../images/site-hero2.jpg') no-repeat center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -60px;
+    z-index: -99999;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.article-title-container {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color: rgb(78, 72, 72);
+    font-family: "Montserrat", sans-serif; 
+    padding: 15px;
+    background: rgba( 235, 235, 235, 0.6);
+    max-width: 75%;
+}
+
+.article-title { 
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.article-description {
+    font-size: 24px;
+    margin: 10px 0 30px;
+    font-weight: 600;
+}
+
+.publication-info {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.menu-opacity {
+    background: rgba( 235, 235, 235, 0.7);
+}
+
+.editdate {
+    font-style: italic;
+}
+
+.maintext {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.editdate {
+    float: right;
+}
+

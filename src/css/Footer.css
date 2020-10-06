@@ -1,0 +1,15 @@
+.Footer {
+    background-color: #e4e4e4;
+    text-align: left;
+    color: #999999;
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.Footer p {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
